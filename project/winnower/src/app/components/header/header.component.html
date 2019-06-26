@@ -1,0 +1,4 @@
+<p [class] = "classes">header works!{{title}}</p>
+<input [(ngModel)]="msg">
+<span>{{msg}}</span>
+<div (click)="sendParent($event)">点击我(子组件),调用父组件的方法</div>
